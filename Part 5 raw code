@@ -1,0 +1,14 @@
+huron = pd.read_csv("data/mhu.csv")
+superior = pd.read_csv("data/sup.csv")
+time = []
+
+for i in range(1860,2016):
+    time.append(i)
+    
+plt.figure(figsize = (12,7))
+plt.subplot(211)
+plt.title("Michigan/Huron")
+plt.plot(time, huron.iloc[:,1])
+plt.subplot(212)
+plt.title("Superior")
+plt.plot(time, superior.iloc[:,1], color = "orange")
