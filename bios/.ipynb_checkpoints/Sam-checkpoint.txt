@@ -1,0 +1,10 @@
+hi, this is sam.
+
+go green
+<<<<<<< HEAD
+=======
+
+My favorite food is easily cheese.
+
+
+>>>>>>> a6aefa412eecfc1368b5a91d7f0cca2b8e35b91b
