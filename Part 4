@@ -118,6 +118,12 @@
    "outputs": [],
    "source": [
     "# Insert Code Here"
+ontario = pd.read_csv("data/ont.csv",delimiter=",")
+plt.plot (ontario["Lake Ontario annual averages"],ontario["AnnAvg"])
+plt.title("Ontario Water Level")
+plt.xlabel("Year")
+plt.ylabel("Water Level")
+plt.show()
    ]
   },
   {
